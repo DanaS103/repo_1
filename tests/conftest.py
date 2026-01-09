@@ -7,5 +7,5 @@ def base_url():
 
 @pytest.fixture(scope="session")
 def base_url_local():
-    # jsonplaceholder base url ㅋㅋ
+    # jsonplaceholder base url
     return "http://localhost:5000"
